@@ -1,5 +1,5 @@
 ![Logo](admin/dmxface.png)
-http://www.dmxface.at
+
 ## ioBroker.Eiswarnung 1.0.0 Adapter
 
 
