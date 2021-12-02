@@ -1,4 +1,4 @@
-![Logo](admin/dmxface.png)
+![Logo](admin/eiswarnung.png)
 
 ## ioBroker.Eiswarnung 1.0.0 Adapter
 
