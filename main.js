@@ -9,7 +9,7 @@
 const adaptername = "dmxface"
 
 const utils = require('@iobroker/adapter-core');
-var adapter  = utils.Adapter (eiswarnung);
+var adapter  = utils.Adapter (Eiswarnung);
 
 var LOG_ALL = false;            //Flag to activate full logging
 
