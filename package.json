@@ -1,0 +1,37 @@
+{
+   "name":"iobroker.eiswarnung",
+   "version":"1.0.0",
+   "description":"Eiswarnung adapter for ioBroker",
+   "author":{
+      "name":"Thomas Jansen",
+      "email":"tjstechhacks@gmail.com"
+   },
+   "homepage":"https://github.com/Redsun1978/ioBroker.eiswarnung",
+   "license":"MIT",
+   "keywords":[
+      "ioBroker",
+      "Redsun1978",
+      "Eiswarnung",
+      "Kratzen",
+      "Winter",
+      "Autoscheibe"
+   ],
+   "repository":{
+      "type":"git",
+      "url":"https://github.com/Redsun1978/ioBroker.eiswarnung"
+   },
+   "dependencies":{
+      "@iobroker/adapter-core":"^1.0.3"
+   },
+   "devDependencies":{
+
+   },
+   "main":"main.js",
+   "scripts":{
+
+   },
+   "bugs":{
+      "url":"https://github.com/Redsun1978/ioBroker.eiswarnung/issues"
+   },
+   "readmeFilename":"README.md"
+}

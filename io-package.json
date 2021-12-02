@@ -1,0 +1,72 @@
+{
+   "common":{
+      "name":"Eiswarnung",
+      "version":"1.0.0",
+      "news":{
+         "1.0.0":{
+            "en":"Ice Warning for the next Day",
+            "de":"Eiswarnung für den nächsten Tag"
+         }
+      },
+      "title":"Eiswarnung",
+      "titleLang":{
+         "en":"Icewarning ioBroker adapter",
+         "de":"Eiswarnung ioBroker Adapter"
+      },
+      "desc":{
+         "en":"Connects Eiswarnung API with ioBroker",
+         "de":"Verbindet ioBroker mit der Eiswarnung.de API"
+      },
+      "authors":[
+         "Author <tjstechhacks@gmail.com>"
+      ],
+      "keywords":[
+         "ioBroker",
+         "Redsun1978",
+      	 "Eiswarnung",
+      	 "Kratzen",
+     	 "Winter",
+         "Autoscheibe"
+      ],
+      "license":"MIT",
+      "platform":"Javascript/Node.js",
+      "main":"main.js",
+      "icon":"eiswarnung.png",
+      "enabled":true,
+      "extIcon":"https://raw.githubusercontent.com/Redsun1978/ioBroker.eiswarnung/master/admin/eiswarnung.png",
+      "readme":"https://github.com/Redsun1978/ioBroker.eiswarnung/blob/master/README.md",
+      "loglevel":"info",
+      "mode":"daemon",
+      "type":"general",
+      "compact":true,
+      "materialize":true,
+      "materializeTab":true,
+      "adminTab":{
+         "singleton":true,
+         "name":{
+            "en":"Icewarning",
+            "de":"Eiswarnung"
+         },
+         "link":"",
+         "fa-icon":"info"
+      },
+      "supportCustoms":true,
+      "dependencies":[
+         {
+            "js-controller":">=1.4.2"
+         }
+      ]
+   },
+   "native":{
+      "ipaddress":"0.0.0.0",
+      "port":"6000",
+      "requesttiming":"1000",
+      "lastdmxchannel":"0"
+   },
+   "objects":[
+
+   ],
+   "instanceObjects":[
+
+   ]
+}
